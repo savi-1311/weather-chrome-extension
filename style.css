@@ -1,0 +1,56 @@
+body
+{
+min-width: 400px;
+min-height: 400px;
+background-color: navy;
+border: 2px solid white;
+}
+.outer
+{
+border : 1%;
+padding : 1%;
+color : white;
+}
+
+#details
+{
+ padding : 2%;
+ border : 1%;
+ width : auto;
+ border-radius: 10%;
+ background-color: white;
+ color: black;
+}
+
+input[type=text]{
+background-color: navy;
+color: white;
+width: 80%;
+border: 1%;
+padding: 1%;
+border: none;
+border-bottom: 1px solid white;
+color: #FFFFFF;
+font-size: 20px;
+}
+button{
+border: 2%;
+padding: 2.5% 4%;
+background-color:crimson;
+border: none;
+color: white;
+font-size: 15px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+button:hover{
+cursor:pointer;
+transform: scale(1.1);
+
+}
+p
+{
+font-size: 15px;
+}
