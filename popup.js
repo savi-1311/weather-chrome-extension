@@ -35,7 +35,7 @@ function Positionweather(position) {
             var mintemp = data.main.temp_min;
             var humidity = data.main.humidity;
             var des = data.weather[0]["main"];
-            x.style.display = "table";
+            x.style.display = "block";
             msg.textContent = name + " ," + country;
             temp.textContent = t + " *C";
             maxt.textContent = "Maximum Temp : " + maxtemp + " *C";
@@ -75,7 +75,7 @@ button.onclick = function(){
             var mintemp = data.main.temp_min;
             var humidity = data.main.humidity;
             var des = data.weather[0]["main"];
-            x.style.display = "table";
+            x.style.display = "block";
             msg.textContent = name + " ," + country;
             temp.textContent = t + " *C";
             maxt.textContent = "Maximum Temp : " + maxtemp + " *C";
